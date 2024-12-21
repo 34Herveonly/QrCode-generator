@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  text-align: center;
+  color: #fff;
+  background: #1b2034;
+}
+
+.app{
+  padding: 2rem 1rem;
+}
+
+h1{
+  font-size:2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+input{
+  appearance: none;
+  border: none;
+  outline: none;
+  background: #eee;
+  width: 100%;
+  max-width: 250px;
+  padding: .65rem 1rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+button,a{
+  appearance: none;
+  border: none;
+  outline: none;
+  color: #2bcb4b;
+  background: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  line-height: 1;
+  text-decoration: none;
+
+}
+
+img{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.qr-code-app{
+  margin-top: 15%;
+}
